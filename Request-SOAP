@@ -1,0 +1,37 @@
+<s:Envelope xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header xmlns="Microsoft.Advertiser.AdInsight.Api.Service.V11">
+    <Action mustUnderstand="1">GetHistoricalSearchCount</Action>
+    <ApplicationToken i:nil="false">ValueHere</ApplicationToken>
+    <AuthenticationToken i:nil="false">ValueHere</AuthenticationToken>
+    <CustomerAccountId i:nil="false">ValueHere</CustomerAccountId>
+    <CustomerId i:nil="false">ValueHere</CustomerId>
+    <DeveloperToken i:nil="false">ValueHere</DeveloperToken>
+    <Password i:nil="false">ValueHere</Password>
+    <UserName i:nil="false">ValueHere</UserName>
+  </s:Header>
+  <s:Body>
+    <GetHistoricalSearchCountRequest xmlns="Microsoft.Advertiser.AdInsight.Api.Service.V11">
+      <Keywords i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a1:string>ValueHere</a1:string>
+      </Keywords>
+      <Language i:nil="false">ValueHere</Language>
+      <PublisherCountries i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a1:string>ValueHere</a1:string>
+      </PublisherCountries>
+      <StartDate xmlns:e73="http://schemas.datacontract.org/2004/07/Microsoft.BingAds.Advertiser.AdInsight.Api.DataContract.V11.Entity" i:nil="false">
+        <e73:Day>ValueHere</e73:Day>
+        <e73:Month>ValueHere</e73:Month>
+        <e73:Year>ValueHere</e73:Year>
+      </StartDate>
+      <EndDate xmlns:e74="http://schemas.datacontract.org/2004/07/Microsoft.BingAds.Advertiser.AdInsight.Api.DataContract.V11.Entity" i:nil="false">
+        <e74:Day>ValueHere</e74:Day>
+        <e74:Month>ValueHere</e74:Month>
+        <e74:Year>ValueHere</e74:Year>
+      </EndDate>
+      <TimePeriodRollup i:nil="false">ValueHere</TimePeriodRollup>
+      <Devices i:nil="false" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <a1:string>ValueHere</a1:string>
+      </Devices>
+    </GetHistoricalSearchCountRequest>
+  </s:Body>
+</s:Envelope>
